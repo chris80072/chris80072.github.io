@@ -2,19 +2,23 @@
 <html lang="zh">
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-<title>Categories - Chris&#39;s Blog</title>
+<title>Build your blog by using GitHub &amp; Hexo - Chris&#39;s Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Chris&#39;s Blog">
-<meta property="og:url" content="https://chris80072.github.io/categories/index.html">
+    <meta name="description" content="IntroductionI had used Logdown as my Blog before, it’s a blog base on Markdown that’s why it’s popular for engineers. As the author is no longer maintained it, I’m look forward to find a new one to re">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Build your blog by using GitHub &amp; Hexo">
+<meta property="og:url" content="https://chris80072.github.io/2019/03/31/Build-your-blog-by-using-GitHub-Hexo/index.html">
 <meta property="og:site_name" content="Chris&#39;s Blog">
+<meta property="og:description" content="IntroductionI had used Logdown as my Blog before, it’s a blog base on Markdown that’s why it’s popular for engineers. As the author is no longer maintained it, I’m look forward to find a new one to re">
 <meta property="og:locale" content="zh-tw">
 <meta property="og:image" content="https://chris80072.github.io/images/og_image.png">
+<meta property="og:updated_time" content="2019-03-31T15:37:26.422Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chris&#39;s Blog">
+<meta name="twitter:title" content="Build your blog by using GitHub &amp; Hexo">
+<meta name="twitter:description" content="IntroductionI had used Logdown as my Blog before, it’s a blog base on Markdown that’s why it’s popular for engineers. As the author is no longer maintained it, I’m look forward to find a new one to re">
 <meta name="twitter:image" content="https://chris80072.github.io/images/og_image.png">
 
 
@@ -89,7 +93,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/logo.svg" alt="Chris&#39;s Blog" height="28">
+                <img src="/images/logo.svg" alt="Build your blog by using GitHub &amp; Hexo" height="28">
             
             </a>
         </div>
@@ -101,7 +105,7 @@
                 
                 <a class="navbar-item" href="/archives">Archives</a>
                 
-                <a class="navbar-item is-active" href="/categories">Categories</a>
+                <a class="navbar-item" href="/categories">Categories</a>
                 
                 <a class="navbar-item" href="/tags">Tags</a>
                 
@@ -134,19 +138,135 @@
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
-<div class="card widget">
-    <div class="card-content">
-        <div class="menu">
-            <h3 class="menu-label">
-                Categories
-            </h3>
-            <ul class="menu-list">
+                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-03-31T15:35:55.000Z">2019-03-31</time>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    3 分鐘 read (About 426 words)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-            </ul>
+                Build your blog by using GitHub &amp; Hexo
+            
+        </h1>
+        <div class="content">
+            <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>I had used Logdown as my Blog before, it’s a blog base on Markdown that’s why it’s popular for engineers. As the author is no longer maintained it, I’m look forward to find a new one to replace it, also based on Markdown. I think GitHub &amp; Hexo is a good solution for me.</p>
+<p>My environment is MAC Mojave 10.14.3.<br>If you are also use MAC but the os version is not same, do not worry too much about it.</p>
+<h3 id="The-following-steps-are"><a href="#The-following-steps-are" class="headerlink" title="The following steps are"></a>The following steps are</h3><ol>
+<li>Install Node</li>
+<li>Install Hexo</li>
+<li>Create a new GitHub repository</li>
+<li>Initial your Hexo project</li>
+<li>Deploy to GitHub</li>
+</ol>
+<h2 id="1-Install-Node"><a href="#1-Install-Node" class="headerlink" title="1. Install Node"></a>1. Install Node</h2><p>You can install it on their official website directly. <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a> </p>
+<p>or </p>
+<p>If you have many projects and some of them are using different Node versions. I recommond you can use <a href="https://github.com/creationix/nvm" target="_blank" rel="noopener">NVM</a>.</p>
+<h2 id="2-Install-Hexo"><a href="#2-Install-Hexo" class="headerlink" title="2. Install Hexo"></a>2. Install Hexo</h2><p>Install Hexo Git </p>
+<p><code>npm install hexo-deployer-git --save</code> </p>
+<p>Install Hexo </p>
+<p><code>npm install hexo-cli -g</code> </p>
+<p>Install Hexo deployer git </p>
+<p><code>npm install hexo-deployer-git --save</code> </p>
+<p>Check Hexo version </p>
+<p><code>hexo version</code> </p>
+<h2 id="3-Create-a-new-GitHub-repository"><a href="#3-Create-a-new-GitHub-repository" class="headerlink" title="3. Create a new GitHub repository"></a>3. Create a new GitHub repository</h2><p>Repository name : yourname.github.io (change yourname to your GitHub Id)<br><img src="https://i.imgur.com/zPbZWhz.png" alt></p>
+<h2 id="4-Initial-your-Hexo-project"><a href="#4-Initial-your-Hexo-project" class="headerlink" title="4. Initial your Hexo project"></a>4. Initial your Hexo project</h2><p>Initial blog </p>
+<p><code>hexo init blog</code></p>
+<p>Change directory </p>
+<p><code>cd blog</code></p>
+<p>Install node module </p>
+<p><code>npm install</code></p>
+<p>Host on your local </p>
+<p><code>hexo serve</code></p>
+<p>You will see your Hexo project is running at <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p>
+<h2 id="5-Deploy-to-GitHub"><a href="#5-Deploy-to-GitHub" class="headerlink" title="5. Deploy to GitHub"></a>5. Deploy to GitHub</h2><p>Go to the _config.yml and find the deploy area.<br>(change yourname to your GitHub Id)</p>
+<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  yourname: yourname</span><br></pre></td></tr></table></figure>
+<p>Deploy </p>
+<p><code>hexo deploy -generate</code></p>
+<p>Then you can see your blog on the GitHub.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Hexo is a great tool that you can build your own blog easily in a short time. And there are many powerful plug-ins. I changed the theme that you can find blow the reference or you can choose one you liked <a href="https://hexo.io/themes/index.html" target="_blank" rel="noopener">here</a>. It looks better now!</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
+<li><a href="https://medium.com/%E5%93%86%E5%95%A6%E5%AF%A6%E9%A9%97%E5%AE%A4/node-js%E7%AE%A1%E7%90%86%E7%A5%9E%E5%99%A8nvm-b6acfca44ea5" target="_blank" rel="noopener">Node.js管理神器nvm</a></li>
+<li><a href="https://yaoandy107.github.io/hexo-tutorial/" target="_blank" rel="noopener">Hexo+GitHub，新手也可以快速建立部落格</a></li>
+<li><a href="https://blog.csdn.net/qq_21808961/article/details/84476504" target="_blank" rel="noopener">hexo d命令报错 ERROR Deployer not found: git</a></li>
+<li><a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">hexo-theme-icarus</a></li>
+</ol>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="card-content">
+        <h3 class="menu-label has-text-centered">Like this article? Support the author with</h3>
+        <div class="buttons is-centered">
+            
+                
+<div class="notification is-danger">
+    You forgot to set the <code>qrcode</code> for Alipay. Please set it in <code>_config.yml</code>.
+</div>
+
+                
+                
+<div class="notification is-danger">
+    You forgot to set the <code>qrcode</code> for Wechat. Please set it in <code>_config.yml</code>.
+</div>
+
+                
+                <!-- Visit https://www.paypal.com/donate/buttons/ to get your donate button -->
+
+<div class="notification is-danger">
+    You forgot to set the <code>business</code> and <code>currency_code</code> for Paypal. Please set it in <code>_config.yml</code>.
+</div>
+
+                
+                
+<div class="notification is-danger">
+    You forgot to set the <code>url</code> Patreon. Please set it in <code>_config.yml</code>.
+</div>
+
+                
         </div>
     </div>
-</div></div>
+</div>
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2019/03/31/hello-world/">
+                <span class="level-item">Hello World</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
+
+</div>
                 
 
 
@@ -512,7 +632,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/logo.svg" alt="Chris&#39;s Blog" height="28">
+                    <img src="/images/logo.svg" alt="Build your blog by using GitHub &amp; Hexo" height="28">
                 
                 </a>
                 <p class="is-size-7">
