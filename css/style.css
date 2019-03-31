@@ -495,3 +495,9 @@ figure.highlight:hover .copy {
 .gist .file {
   all: initial;
 }
+/* ---------------------------------
+ *        Custom by Chris
+ * --------------------------------- */
+.avatar {
+  border-radius: 64px;
+}
