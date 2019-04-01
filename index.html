@@ -147,7 +147,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    3 分鐘 read (About 426 words)
+                    3 分鐘 read (About 431 words)
                 </span>
                 
                 
@@ -172,28 +172,13 @@
 <h2 id="1-Install-Node"><a href="#1-Install-Node" class="headerlink" title="1. Install Node"></a>1. Install Node</h2><p>You can install it on their official website directly. <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a> </p>
 <p>or </p>
 <p>If you have many projects and some of them are using different Node versions. I recommond you can use <a href="https://github.com/creationix/nvm" target="_blank" rel="noopener">NVM</a>.</p>
-<h2 id="2-Install-Hexo"><a href="#2-Install-Hexo" class="headerlink" title="2. Install Hexo"></a>2. Install Hexo</h2><p>Install Hexo Git </p>
-<p><code>npm install hexo-deployer-git --save</code> </p>
-<p>Install Hexo </p>
-<p><code>npm install hexo-cli -g</code> </p>
-<p>Install Hexo deployer git </p>
-<p><code>npm install hexo-deployer-git --save</code> </p>
-<p>Check Hexo version </p>
-<p><code>hexo version</code> </p>
+<h2 id="2-Install-Hexo"><a href="#2-Install-Hexo" class="headerlink" title="2. Install Hexo"></a>2. Install Hexo</h2><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># Install Hexo Git</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"># Install Hexo</span><br><span class="line">$ npm install hexo-cli -g</span><br><span class="line"></span><br><span class="line"># Install Hexo deployer git</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"># Check Hexo version</span><br><span class="line">hexo version</span><br></pre></td></tr></table></figure>
 <h2 id="3-Create-a-new-GitHub-repository"><a href="#3-Create-a-new-GitHub-repository" class="headerlink" title="3. Create a new GitHub repository"></a>3. Create a new GitHub repository</h2><p>Repository name : yourname.github.io (change yourname to your GitHub Id)<br><img src="https://i.imgur.com/zPbZWhz.png" alt></p>
-<h2 id="4-Initial-your-Hexo-project"><a href="#4-Initial-your-Hexo-project" class="headerlink" title="4. Initial your Hexo project"></a>4. Initial your Hexo project</h2><p>Initial blog </p>
-<p><code>hexo init blog</code></p>
-<p>Change directory </p>
-<p><code>cd blog</code></p>
-<p>Install node module </p>
-<p><code>npm install</code></p>
-<p>Host on your local </p>
-<p><code>hexo serve</code></p>
+<h2 id="4-Initial-your-Hexo-project"><a href="#4-Initial-your-Hexo-project" class="headerlink" title="4. Initial your Hexo project"></a>4. Initial your Hexo project</h2><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># Initial blog </span><br><span class="line">$ hexo init blog</span><br><span class="line"></span><br><span class="line"># Change directory </span><br><span class="line">$ cd blog</span><br><span class="line"></span><br><span class="line"># Install node module </span><br><span class="line">$ npm install</span><br><span class="line"></span><br><span class="line"># Host on your local </span><br><span class="line">$ hexo serve</span><br></pre></td></tr></table></figure>
 <p>You will see your Hexo project is running at <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p>
 <h2 id="5-Deploy-to-GitHub"><a href="#5-Deploy-to-GitHub" class="headerlink" title="5. Deploy to GitHub"></a>5. Deploy to GitHub</h2><p>Go to the _config.yml and find the deploy area.<br>(change yourname to your GitHub Id)</p>
-<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  yourname: yourname</span><br></pre></td></tr></table></figure>
-<p>Deploy </p>
-<p><code>hexo deploy -generate</code></p>
+<p>Blog/_config.yml<br><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  yourname: yourname</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># Deploy to GitHub</span><br><span class="line">$ hexo deploy -generate</span><br></pre></td></tr></table></figure>
 <p>Then you can see your blog on the GitHub.</p>
 <h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>Hexo is a great tool that you can build your own blog easily in a short time. And there are many powerful plug-ins. I changed the theme that you can find blow the reference or you can choose one you liked <a href="https://hexo.io/themes/index.html" target="_blank" rel="noopener">here</a>. It looks better now!</p>
 <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
@@ -306,7 +291,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Posts
+                        Entradas
                     </p>
                     <p class="title has-text-weight-normal">
                         2
@@ -316,7 +301,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Categories
+                        Categorias
                     </p>
                     <p class="title has-text-weight-normal">
                         0
@@ -326,7 +311,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Tags
+                        Etiquetas
                     </p>
                     <p class="title has-text-weight-normal">
                         0
@@ -336,7 +321,7 @@
         </nav>
         <div class="level">
             <a class="level-item button is-link is-rounded" href="https://github.com/chris80072" target="_blank">
-                Follow</a>
+                SEGUIR</a>
         </div>
         
         
@@ -423,7 +408,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Categories
+                Categorias
             </h3>
             <ul class="menu-list">
             
@@ -441,7 +426,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Recent
+            Recientes
         </h3>
         
         <article class="media">
@@ -490,7 +475,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archives
+            Archivos
         </h3>
         <ul class="menu-list">
         
@@ -514,7 +499,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Tags
+                Etiquetas
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 
@@ -538,7 +523,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Recent
+            Recientes
         </h3>
         
         <article class="media">
@@ -587,7 +572,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archives
+            Archivos
         </h3>
         <ul class="menu-list">
         
@@ -611,7 +596,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Tags
+                Etiquetas
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 
@@ -744,7 +729,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
 
-<a id="back-to-top" title="Back to Top" href="javascript:;">
+<a id="back-to-top" title="Kembali ke atas" href="javascript:;">
     <i class="fas fa-chevron-up"></i>
 </a>
 <script src="/js/back-to-top.js" defer></script>
@@ -790,10 +775,10 @@ document.addEventListener('DOMContentLoaded', function () {
     (function (window) {
         var INSIGHT_CONFIG = {
             TRANSLATION: {
-                POSTS: 'Posts',
+                POSTS: 'Entradas',
                 PAGES: 'Pages',
-                CATEGORIES: 'Categories',
-                TAGS: 'Tags',
+                CATEGORIES: 'Categorias',
+                TAGS: 'Etiquetas',
                 UNTITLED: '(Untitled)',
             },
             CONTENT_URL: '/content.json',
